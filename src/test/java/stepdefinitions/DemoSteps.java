@@ -1,13 +1,11 @@
 package stepdefinitions;
 
 import base.BaseClass;
-import hooks.Hooks;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import pages.HomePage;
 import org.openqa.selenium.WebDriver;
-import base.BaseClass;
 
 public class DemoSteps {
     private final WebDriver driver;
